@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* .dark * {
+    color: white;
+} */
+
+.dark .item {
+    background-color: black;
+    border-radius: 20px;
+}
+
+.dark .titre {
+    background-color: black;
+    border-radius: 20px;
+}
+
+.icon-mode-sombre  {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.titre {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: sans-serif;
+    border: solid 5px brown;
+    color: brown;
+    margin: 20px 50px 2px 50px;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.titre- {
+    margin-right: 5px;
+}
+
+.titre-table {
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.grid-container {
+    display: grid;
+    gap: 1.5em;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 50px;
+}
+
+.item {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-size: 20px;
+}
+
+.item-1 {
+    color: rgb(7, 36, 163);
+}
+
+.item-2 {
+    color: rgb(5, 81, 128);
+}
+
+.item-3 {
+    color: rgb(20, 131, 175);
+}
+
+.item-4 {
+    color: rgb(127, 7, 163);
+}
+
+.item-5 {
+    color: rgb(163, 7, 163);
+}
+
+.item-6 {
+    color: rgb(101, 7, 163);
+}
+
+.item-7 {
+    color: rgb(163, 7, 7);
+}
+
+.item-8 {
+    color: rgb(109, 25, 4);
+}
+
+.item-9 {
+    color: rgb(163, 38, 7);
+}
+
+.item-10 {
+    color: rgb(108, 163, 7);
+}
+
+.item-11 {
+    color: rgb(5, 116, 29);
+}
+
+.item-12 {
+    color: rgb(7, 163, 33);
+}
+
+@media(min-width:200px){
+    .titre {
+        font-size: 16px;
+        margin: 20px 20px 2px 20px;
+        padding: 20px;
+    }
+
+    .none{
+        display: none;
+    }
+
+    .icon-mode-sombre  {
+        width: 10px;
+        height: 10px;
+    }
+
+    .grid-container {
+        display: grid;
+        gap: 1em;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px;
+    }
+}
+
+@media(max-width:200px){
+    .titre {
+        font-size: 20px;
+        margin: 20px 20px 2px 20px;
+        padding: 20px;
+    }
+
+    .none{
+        display: none;
+    }
+    
+    .icon-mode-sombre  {
+        width: 10px;
+        height: 10px;
+    }
+
+    .grid-container {
+        display: grid;
+        gap: 1em;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px;
+    }
+}
+
+@media(min-width:600px){
+    .titre {
+        font-size: 20px;
+        margin: 20px 20px 2px 20px;
+        padding: 20px;
+    }
+
+    .none{
+        display: none;
+    }
+
+    .icon-mode-sombre  {
+        width: 15px;
+        height: 15px;
+    }
+
+    .grid-container {
+        display: grid;
+        gap: 1em;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px;
+    }
+}
+
+@media(min-width:768px){
+    .titre {
+        font-size: 20px;
+        margin: 20px 20px 2px 20px;
+        padding: 20px;
+    }
+
+    .none{
+        display: inline-block;
+    }
+
+    .icon-mode-sombre  {
+        width: 15px;
+        height: 15px;
+    }
+
+    .grid-container {
+        display: grid;
+        gap: 1em;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px;
+    }
+}
+
+@media(min-width:992px){
+    .titre {
+        font-size: 25px;
+        margin: 20px 50px 2px 50px;
+        padding: 20px 0px 20px 0px;
+    }
+
+    .none{
+        display: inline-block;
+    }
+
+    .icon-mode-sombre  {
+        width: 15px;
+        height: 15px;
+    }
+
+    .grid-container {
+        display: grid;
+        gap: 1em;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 50px;
+    }
+}
+
+@media(min-width:1200px){
+    .titre {
+        font-size: 25px;
+        margin: 20px 50px 2px 50px;
+        padding: 20px 0px 20px 0px;
+    }
+
+    .none{
+        display: inline-block;
+    }
+
+    .icon-mode-sombre  {
+        width: 25px;
+        height: 25px;
+    }
+
+    .grid-container {
+        display: grid;
+        gap: 1em;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 50px;
+    }
+}
